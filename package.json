@@ -1,6 +1,6 @@
 {
   "name": "weeboo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lightweight web framework based on promises and async functions",
   "main": "app.js",
   "scripts": {

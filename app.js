@@ -293,16 +293,4 @@ const connect = function (middleware) {
     }
 }
 
-const promise = function (method, ...args) {
-    return new Promise(function (resolve, reject) {
-        method = method.bind(null, ...args)
-        method(function (err, result) {
-            if (err) {
-                return reject(err);
-            }
-            resolve(result);
-        });
-    });
-};
-
-module.exports = { NextError, App, promise, connect, splitN };
+module.exports = { NextError, App, connect, splitN };
