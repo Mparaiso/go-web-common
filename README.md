@@ -1,6 +1,8 @@
 Weeboo
 ======
 
+[![Build Status](https://travis-ci.org/Mparaiso/go-web-common.svg?branch=master)](https://travis-ci.org/Mparaiso/go-web-common)
+
 author: mparaiso <mparaiso@online.fr>
 
 license: Apache 2.0
