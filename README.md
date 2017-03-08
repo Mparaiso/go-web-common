@@ -1,7 +1,7 @@
 Weeboo
 ======
 
-[![Build Status](https://travis-ci.org/Mparaiso/go-web-common.svg?branch=master)](https://travis-ci.org/Mparaiso/go-web-common)
+[![Build Status](https://travis-ci.org/Mparaiso/weeboo.js.svg?branch=master)](https://travis-ci.org/Mparaiso/weeboo.js)
 
 author: mparaiso <mparaiso@online.fr>
 
