@@ -1,0 +1,37 @@
+{
+  "name": "weeboo",
+  "version": "0.0.1",
+  "description": "A lightweight web framework based on promises and async functions",
+  "main": "app.js",
+  "scripts": {
+    "jasmine-test":"node ./node_modules/jasmine/bin/jasmine.js",
+    "test": "npm run lint && npm run jasmine-test",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ."
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Mparaiso/weeboo.js.git"
+  },
+  "keywords": [
+    "web",
+    "framework",
+    "async",
+    "router",
+    "promise"
+  ],
+  "author": "mparaiso <mparaiso@free.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mparaiso/weeboo.js/issues"
+  },
+  "homepage": "https://github.com/Mparaiso/weeboo.js#readme",
+  "dependencies": {
+    "eslint": "^3.17.1"
+  }
+}

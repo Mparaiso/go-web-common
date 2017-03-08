@@ -1,0 +1,16 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "env": {
+        "node": true,
+        "es6": true,
+        "browser": false
+    },
+    "rules": {
+        "no-undef": "error",
+        "new-cap": "error",
+        "no-unused-vars": "error",
+        "eqeqeq": "error"
+    }
+}
