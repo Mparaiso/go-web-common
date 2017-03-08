@@ -77,7 +77,7 @@ class Group {
 
         assert(typeof resourceName === 'string', 'resourceName should be a string')
         assert(typeof prefixPath === 'string', 'prefixPath should be a string')
-        assert(resourceHandler !== null, 'resource handler shouldn\'t be null')
+        assert(resourceHandler instanceof Function, 'resourceHandler should be a function')
 
         let resource = this.group(prefixPath)
         Object.defineProperty(resource, "resourceName", { get: function () { return resourceName } })
