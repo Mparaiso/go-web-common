@@ -37,7 +37,7 @@ interface RequestListener {
     delete(context: context)
 }
 
-type next = (err?: Error) => void;
+type next = (err?: Error) => Promise;
 type requestListener = (context: context) => (void | Promise<any>);
 
 /**
